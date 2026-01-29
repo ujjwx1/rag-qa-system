@@ -7,6 +7,8 @@ A production-ready, asynchronous Retrieval-Augmented Generation (RAG) system eng
 
 ## 🏗 System Architecture
 
+![System Architecture Diagram](docs/architecture_drawio.png)
+
 The system is designed with a **Separation of Concerns (SoC)** architecture to ensure modularity and scalability.
 
 1. **Ingestion Layer**: A multi-threaded background worker processes document uploads (PDF/TXT) to prevent API blocking.
