@@ -56,10 +56,15 @@ Create a `.env` file in the root directory:
 
 ```ini
 GEMINI_API_KEY=your_api_key_here
-EMBEDDING_MODEL=models/text-embedding-004
-LLM_MODEL=gemini-3-flash-preview
+REDIS_URL=redis://localhost:6379/0
 APP_ENV=development
 DEBUG=true
+LOG_LEVEL=INFO
+RATE_LIMIT_PER_MINUTE=30
+CHUNK_SIZE=512
+CHUNK_OVERLAP=50
+EMBEDDING_MODEL=models/text-embedding-004
+LLM_MODEL=gemini-3-flash-preview
 ```
 
 ### 4. Execution
